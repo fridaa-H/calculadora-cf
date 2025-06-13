@@ -8,6 +8,11 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
+    - name: Saludar!
+      uses: fridaa-H/hello-world-javascript-action@v1.0
+      with:
+        who-to-greet: 'Frida'
+      
     - name: Tener copia local del repo
       uses: actions/checkout@v4.2.2
 
